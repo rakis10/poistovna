@@ -103,8 +103,9 @@ export default function Vypocet() {
             >
                 {({isSubmitting, values, errors, setFieldValue}) => (
                     <>
-                        <PrettyPrint data={values}/>
-                        <PrettyPrint data={errors}/>
+                        {/* for development use*/}
+                        {/*<PrettyPrint data={values}/>*/}
+                        {/*<PrettyPrint data={errors}/>*/}
                         <Form>
                             <Container className={'mw-50'}>
                                 <VpInput>
